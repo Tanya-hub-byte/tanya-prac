@@ -1,0 +1,25 @@
+.about-content {
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.about-content div {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); 
+  border-radius: 12px;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}

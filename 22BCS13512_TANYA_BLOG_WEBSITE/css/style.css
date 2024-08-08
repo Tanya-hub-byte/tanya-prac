@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  margin-top: 25px;
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center; /* Ensure items are centered vertically */
+}
+
+.circle-logo {
+  display: inline-block; /* Inline-block to allow for padding and centering */
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  line-height: 60px; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  border-radius: 50%; /* Create circle */
+  background-color: #333; /* Background color of circle */
+  color: white; /* Text color */
+  font-size: 20px; /* Adjust font size as needed */
+  margin-right: 20px; /* Space between circle and menu */
+  font-family: var(--font1); /* Use the same font family */
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 22px;
+  padding-bottom: 23px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left ul li a:hover {
+  font-weight: bolder;
+  color: var(--main-bg-color);
+}
+
+.content {
+  height: 100%;
+  background-color: rgb(223, 223, 244);
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+}
+
+.content::after {
+  content: "";
+  background-image: url('../img/1.png');
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.content-left {
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  z-index: 1;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  height: 355px;
+  border: 2px solid black;
+}
+
+.home-articles {
+  background-color: rgb(231, 152, 152);
+  padding: 18px;
+  margin-top: 23px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+}
+
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-article img {
+  width: 300px;
+}
+
+.footer {
+  height: 50px;
+  background-color: rgb(225, 69, 225);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+.footer a {
+  color: white;
+}
